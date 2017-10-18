@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "lib": [
+            "es2015",
+            "es2016",
+            "dom"
+        ],
+        "allowJs": true,
+        "outDir": "./dist/"
+    },
+    
+    "include": [
+        "src/**/*.js",
+        "src/**/*.ts"
+    ]
+}
